@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2f2f2f;
+  font-weight: 600;
+  color: #fff;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head h1 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0.6rem;
+}
+
+.head p {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0.8rem;
+  width: 50%;
+  line-height: 1.5;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-form {
+  color: #c1c1c1;
+  background-color: #0e86d4;
+  width: 40rem;
+  border-radius: 2rem;
+  padding-top: 0.7rem;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.personal-info label {
+  display: block;
+  text-align: center;
+  margin: -0.9rem;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0.8rem;
+}
+#name,
+#lastname,
+#email,
+#phone {
+  color: #2f2f2f;
+  width: 30rem;
+  padding: 0.3rem;
+  border-radius: 2rem;
+  border: 0.2rem solid black;
+  margin: 3px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.programing-lang {
+  text-align: center;
+  margin-top: -1.5rem;
+  color: #fff;
+  padding-bottom: 0.3rem;
+  
+}
+.programing-lang h2 {
+  font-size: 1.2rem;
+  padding-bottom: 0.2rem;
+  margin-top: 3rem;
+}
+.equipment {
+  padding-bottom: 0.3rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+  text-align: center;
+  color: #fff;
+}
+.equipment h2 {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+}
+
+.oper-system {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: -1.5rem;
+}
+#operating {
+  color: #2f2f2f;
+  width: 30rem;
+  padding: 0.3rem;
+  border-radius: 2rem;
+  border: 0.2rem solid black;
+  margin: 3px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.oper-system label {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.oper-system option {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.6rem;
+  margin: 1rem;
+  border-radius: 50px;
+  width: 30rem;
+  color: #fff;
+  background-color: #2f2f2f;
+  box-shadow: 3px 2px 5px #dddd;
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: rgb(224, 183, 108);
+  cursor: pointer;
+  color: #000;
+}
+
+@media screen and (max-width: 810px) {
+  .head h1 {
+    font-size: 1rem;
+    margin: 0.3rem;
+  }
+
+  .head p {
+    font-size: 0.7rem;
+    color: #fff;
+    margin: 0.6rem;
+    width: 70%;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .main-form {
+    width: 20rem;
+    padding-top: 0.2rem;
+  }
+  #name,
+  #lastname,
+  #email,
+  #phone,
+  #operating,
+  .btn {
+    width: 15rem;
+  }
+  .programing-lang h2,
+  .equipment h2 {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+  }
+  .programing-lang,
+  .equipment {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="head">
+      <h1>Welcome to our <span class="logo">X</span> School</h1>
+      <p>
+        Bootcamps are outdated. <span class="logo">X</span> School of Software
+        Engineering is the next generation. Remote education designed to make
+        you a first-class software engineer from scratch.
+      </p>
+    </header>
+    <section class="form">
+      <form class="main-form">
+        <div class="personal-info">
+          <label for="name">Your Name:</label><br />
+          <input type="text" id="name" name="name" value="Name" /><br />
+          <label for="lastname">Your Lastname:</label><br />
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            value="Lastname"
+          /><br />
+          <label for="email">Your Email:</label><br />
+          <input type="email" id="email" name="email" value="Email" /><br />
+          <label for="phone">Your Phone:</label><br />
+          <input
+            type="number"
+            id="phone"
+            name="phone"
+            value="9999999999"
+          /><br />
+        </div>
+        <div class="programing-lang">
+          <h2>What programming language do you prefer</h2>
+          <input type="radio" id="python" name="fav_lang" value="Python" />
+          <label for="python">Python</label>
+          <input type="radio" id="golang" name="fav_lang" value="Golang" />
+          <label for="golang">Golang</label>
+          <input type="radio" id="ruby" name="fav_lang" value="Ruby" />
+          <label for="ruby">Ruby</label>
+          <input type="radio" id="java" name="fav_lang" value="Java" />
+          <label for="java">Java</label>
+        </div>
+        <div class="equipment">
+          <h2>What type of equipment do you have</h2>
+          <input type="checkbox" id="laptop" name="laptop" value="Laptop" />
+          <label for="Laptop"> Laptop</label>
+          <input type="checkbox" id="pc" name="pc" value="Pc" />
+          <label for="pc">Pc</label>
+        </div>
+        <div class="oper-system">
+          <label for="operating">Operating system</label>
+          <select id="operating" name="operating">
+            <option value="windows">Windows</option>
+            <option value="Linux">Linux</option>
+            <option value="mac">Mac</option>
+          </select>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit" class="btn" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
